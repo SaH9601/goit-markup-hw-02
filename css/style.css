@@ -22,7 +22,6 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -36,6 +35,10 @@ body {
 .nav-link {
     text-decoration: none;
     color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover {
     color: #404BBF;
@@ -88,7 +91,7 @@ body {
 .main-heading {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -230,7 +233,7 @@ body {
     line-height: 1,17;
 }
     .logo-color-footer {
-        color: #f4f4fd;
+    color: #f4f4fd;
     }
 .logo-desc {
     font-weight: 400;
