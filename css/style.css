@@ -17,6 +17,14 @@ body {
     line-height: 1.17;
 }
 
+.logo-color:hover {
+    color: #404BBF;
+}
+
+.logo-color:focus {
+    color: #404BBF;
+}
+
 .logo-color {
     color: #2e2f42;
 }
@@ -94,7 +102,15 @@ body {
     white-space: nowrap;
 }
 
-.button:hover .button:active .button:focus {
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:active {
+    background-color: #404BBF;
+}
+
+.button:focus {
     background-color: #404BBF;
 }
 
@@ -188,7 +204,7 @@ body {
 
 /* Footer */
 
-.footer .logo-footer {
+.footer {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -200,7 +216,11 @@ body {
     line-height: 1,17;
 }
 
-    .logo-color-footer {
+.logo-footer {
+
+}
+
+.logo-color-footer {
     color: #f4f4fd;
     }
 
@@ -209,4 +229,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    font-size: 16px;
+    text-transform: lowercase;
 }
