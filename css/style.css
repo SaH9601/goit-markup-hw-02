@@ -2,18 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
+    font-size: 16px;
 }
 
 /* header */
-
-.menu-nav .nav-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-family: "Raleway", sans-serif;
-}
 
 .logo {
     font-weight: 700;
@@ -22,17 +14,25 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    line-height: 1.17;
 }
 
 .logo-color {
     color: #2e2f42;
 }
 
+.menu-nav .nav-list {
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+}
+
 .nav-link {
     text-decoration: none;
     color: #2e2f42;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -52,7 +52,6 @@ body {
 
 .contacts {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -63,15 +62,7 @@ body {
     color: #434455;
 }
 
-.contacts-link:hover {
-    color: #404BBF;
-}
-
-.contacts-link:active {
-    color: #404BBF;
-}
-
-.contacts-link:focus {
+.contacts-link:hover .contacts-link:active .contacts-link:focus {
     color: #404BBF;
 }
 
@@ -96,7 +87,6 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
@@ -104,15 +94,7 @@ body {
     white-space: nowrap;
 }
 
-.button:hover {
-    background-color: #404BBF;
-}
-
-.button:active {
-    background-color: #404BBF;
-}
-
-.button:focus {
+.button:hover .button:active .button:focus {
     background-color: #404BBF;
 }
 
@@ -135,7 +117,6 @@ body {
 
 .features-desc {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -172,7 +153,6 @@ body {
 
 .job-title {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -184,7 +164,6 @@ body {
 .our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -202,7 +181,6 @@ body {
 
 .list-desc {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -210,11 +188,8 @@ body {
 
 /* Footer */
 
-.footer {
-    background-color: #2e2f42;;
-}
-
-.logo-footer {
+.footer .logo-footer {
+    background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -224,12 +199,13 @@ body {
     text-decoration: none;
     line-height: 1,17;
 }
+
     .logo-color-footer {
     color: #f4f4fd;
     }
+
 .logo-desc {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
