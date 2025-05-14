@@ -18,16 +18,6 @@ body {
     line-height: 1.17;
 }
 
-.logo:hover,
-.logo:focus {
-    color: #404bbf;
-}
-
-.logo:hover .logo-color,
-.logo:focus .logo-color {
-    color: #404bbf;
-}
-
 .logo-color {
     color: #2e2f42;
 }
@@ -51,7 +41,7 @@ body {
     color: #404BBF;
 }
 
-.nav-link:active, .nav-link:focus {
+.nav-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
@@ -70,7 +60,8 @@ body {
     color: #434455;
 }
 
-.contacts-link:hover .contacts-link:active .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404BBF;
 }
 
