@@ -18,12 +18,14 @@ body {
     line-height: 1.17;
 }
 
-.logo:hover, .logo:focus {
-    color: #404BBF;
+.logo:hover,
+.logo:focus {
+    color: #404bbf;
 }
 
-.logo-color:hover, .logo-color:focus {
-    color: #404BBF;
+.logo:hover .logo-color,
+.logo:focus .logo-color {
+    color: #404bbf;
 }
 
 .logo-color {
@@ -53,6 +55,7 @@ body {
     color: #404BBF;
     text-decoration: underline;
 }
+
 /* contacts */
 
 .contacts {
@@ -88,8 +91,6 @@ body {
 }
 .button {
     background: #4d5ae5;
-    display: flex;
-    align-items: center;
     justify-content: center;
     font-weight: 500;
     line-height: 1.5;
@@ -210,7 +211,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    line-height: 1,17;
+    line-height: 1.17;
 }
 
 .logo-color-footer {
