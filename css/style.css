@@ -46,6 +46,10 @@ body {
     text-decoration: underline;
 }
 
+ul {
+    list-style: none;
+}
+
 /* contacts */
 
 .contacts {
